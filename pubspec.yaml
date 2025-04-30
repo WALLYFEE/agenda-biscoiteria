@@ -41,6 +41,7 @@ dependencies:
   flutter_launcher_icons: ^0.14.3
   flutter_native_splash: ^2.4.6
   table_calendar: ^3.0.9
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
