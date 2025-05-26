@@ -32,7 +32,6 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  shared_preferences: ^2.0.15
   flutter_masked_text2: ^0.9.1
   intl: 0.19.0
   # The following adds the Cupertino Icons font to your application.
@@ -42,6 +41,9 @@ dependencies:
   flutter_native_splash: ^2.4.6
   table_calendar: ^3.0.9
   provider: ^6.0.5
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +68,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/logo.png
+    - assets/user_placeholder.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -109,4 +112,8 @@ flutter_native_splash:
   ios: true
   web: false
   
-table_calendar: ^3.0.9
+table_calendar:
+  git:
+    url: https://github.com/aleksanderwozniak/table_calendar.git
+    ref: master
+
